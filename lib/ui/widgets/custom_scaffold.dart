@@ -18,7 +18,7 @@ class CustomScaffold extends StatelessWidget {
       persistentFooterButtons: _netController.connectionStatus.value == ConnectionStatus.none
           ? [
               const Padding(
-                padding: EdgeInsets.all(0),
+                padding: EdgeInsets.all(0.0),
                 child: Center(
                   child: Text(
                     'Failed to connect to Internet',
